@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Android Studio 快捷键(OS X 下)
 ---
 
