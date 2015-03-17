@@ -5,13 +5,16 @@ title: Android开发中的LitePal使用总结
 ---
 
 # Android开发中的LitePal使用总结
+
 ### 1. LitePal简介
+
 [**LitePal开源地址**](https://github.com/LitePalFramework/LitePal )
 LitePal是一个开源的Android库，让开发人员更加方便地使用SQLite数据库。你可以完成大部分的数据库操作，而无需编写SQL语句，包括建立或升级表，CRUD（增删改查）操作，聚合函数等。LitePal的设置相当简单，你可以在不到5分钟时间内将它集成到你的项目中。
 
 在LitePal开源地址的README文件中你可以找到使用说明。如果你的英文能力有限，可以看[郭霖的博客](http://blog.csdn.net/guolin_blog/article/details/38083103)，其中有几篇博文详细地介绍了LitePal的使用。
 
 还有一分精简版的中文[LitePal使用](http://seniorzhai.github.io/2015/02/02/LitePal%E7%9A%84%E4%BD%BF%E7%94%A8/)，作者写的也很详细，适用于新手快速掌握LitePal的使用。
+
 ### 2. LitePal使用中的需要注意的几个问题
 **1. 更改某个数据为默认值**
  
