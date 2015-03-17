@@ -26,6 +26,7 @@ LitePal是一个开源的Android库，让开发人员更加方便地使用SQLite
 		// phone.setPower(false);
 		phone.setToDefault("power");
 	</java>
+	
 **2. 查询boolean类型的字段时的问题**
 
 boolean类型的字段在设置为真时就是是赋值`true`,以及使用`setToDefault()`方法，赋值都是`true`或`false`，但是实际存储时，存在数据库的为`1`或`0`，所以查询时查询参数应该为`1`和`0`，而不是`true`和`false`。还是以查询Phone表为例子，查找所有没电的手机，即`phone.isPower()==false`。  
@@ -38,6 +39,7 @@ boolean类型的字段在设置为真时就是是赋值`true`,以及使用`setTo
 	</java>
 	
 **3. 关联表新增关联项问题**
+
 LitePal配置表关联很便捷，但在关联表之间添加数据更改数据需要注意。还是一Phone为例子：
 	
 	<java>
@@ -72,5 +74,6 @@ LitePal配置表关联很便捷，但在关联表之间添加数据更改数据�
 		// 数据库中app表中的message的phone_id字段将变成2
 		message.setPhone(phone);
 	</java>
+	
 以上就是关联表的数据新增操作。
    
