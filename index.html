@@ -1,14 +1,25 @@
 ---
-layout: default
 title: 写代码的猴子
 ---
+<head>
+	<style type="text/css">
+	body{
+		margin-left: 128px;
+		margin-right: 128px;
+		margin-top: 36px;
+		margin-bottom: 128px
 
+	}
+	</style>
+</head>
 <h2>{{ page.title }}</h2>
 
-<p>最新文章</p>
+<p ><b>
+	最新文章
+</b></p>
 
 <ul>
-{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
+	{% for post in site.posts %}
+	　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	　　　　{% endfor %}
 </ul>
