@@ -3,7 +3,6 @@ layout: default
 title: Android开发中的LitePal使用总结
 ---
 
-
 # Android开发中的LitePal使用总结
 
 ### 1. LitePal简介
