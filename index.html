@@ -25,10 +25,9 @@ title: 写代码的猴子
 <ul>
 	{% for post in site.posts %}
 	　　<li>
-		{{ post.date | date_to_string }} 
-		————
 		<a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">
 			{{ post.title }}</a>
+			【{{ post.date | date_to_string }} 】
 		</li>
 		{% endfor %}
 	</ul>
