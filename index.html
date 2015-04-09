@@ -12,6 +12,25 @@ title: 写代码的猴子
 		margin-top: 36px;
 		margin-bottom: 128px
 	}
+	a{
+		font-family: Arial;
+		font-size: 25px;
+
+
+	}
+	a:link{
+		color:#339999;
+		text-decoration: none;
+	}
+	a:visited{
+		color:#339999;
+		text-decoration: none;
+	}
+	a:hover{
+		color:gray;
+		text-decoration: underline;
+
+	}
 	</style>
 </head>
 <title>写代码的猴子</title>
@@ -27,7 +46,7 @@ title: 写代码的猴子
 	　　<li>
 		<a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">
 			{{ post.title }}</a>
-			 |{{ post.date | date_to_string }}
+			|{{ post.date | date_to_string }}
 		</li>
 		{% endfor %}
 	</ul>
