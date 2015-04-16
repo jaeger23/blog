@@ -73,15 +73,9 @@ title: Android学习资源
 	- [最火的Android开源项目（三）](http://www.csdn.net/article/1970-01-01/2815370)
 	
 
-			最后啰嗦几句，资料很多，百度，Google都很容易，难的是踏踏实实去做，去努力，去坚持。
-			
-			不断学习，不断进步。共勉。
-	
-			for (int day = today; day <= dieDay; day++){
-					study();
-			}	
-	
-	
+最后啰嗦几句，资料很多，百度，Google都很容易，难的是踏踏实实去做，去努力，去坚持。
+
+不断学习，不断进步。共勉。	
 	
 	
 	
